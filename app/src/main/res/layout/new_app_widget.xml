@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/status_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#6200EE"
+        android:layout_gravity="center"
+        android:text="Clear Sky"/>
+    <TextView
+        android:id="@+id/temp_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="90dp"
+        android:textColor="#6200EE"
+        android:fontFamily="sans-serif-thin"
+        android:layout_gravity="center"
+        android:text="29°C"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/temp_min_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6200EE"
+            android:text="Min Temp: 05:05 AM"/>
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/temp_max_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6200EE"
+            android:text="Max Temp: 05:05 PM"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/addressContainer_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/address_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6200EE"
+            android:textSize="24dp"
+            android:text="DHAKA, BD"/>
+        <TextView
+            android:id="@+id/updated_at_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#6200EE"
+            android:textSize="14dp"
+            android:text="20 April 2012, 20:08 PM"/>
+    </LinearLayout>
+
+</LinearLayout>
